@@ -8,6 +8,10 @@ published: true
 .img-circle {
     border-radius: 50%;
     float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 </style>
 
