@@ -7,6 +7,7 @@ published: true
 <style>
 .img-circle {
     border-radius: 50%;
+    float: left;
 }
 </style>
 
