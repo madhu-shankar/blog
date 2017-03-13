@@ -47,6 +47,8 @@ ul.contact-ul {
     border: 1px solid #aaa;
     display: inline-flex;
     margin-bottom: 1em;
+    height: 5em;
+    width: 5em;
 }
 
 </style>
