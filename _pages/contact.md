@@ -53,7 +53,7 @@ ul.contact-ul {
 
 You can send me your feedback or suggestion here.
 
-<form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.api-token}}" method="POST" enctype="multipart/form-data">
+<form id="contact-form" action="https://getsimpleform.com/messages?form_api_token={{site.api-token}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">Name:</label>
@@ -72,12 +72,4 @@ You can send me your feedback or suggestion here.
         <input type="submit" value="Send" id="submit"/>
         <input type="hidden" name='redirect_to' value="http://madhushankar.me/blog/thank_you" />
         
-</form>
-
-<form action="https://getsimpleform.com/messages?form_api_token=eb3758f084a6807e1da95dfc07364dc9" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-  <!-- all your input fields here.... -->
-  <input type='text' name='test' />
-  <input type='submit' value='Test form' />
 </form>
