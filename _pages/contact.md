@@ -32,7 +32,7 @@ ul.contact-ul {
 #submit {
     border:none;
     background-color: #98C1D9;
-    padding: 5px 15px;
+    padding: 20px 15px;
     color: #eee;
     opacity: 0.8;
 }
