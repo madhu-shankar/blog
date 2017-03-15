@@ -9,4 +9,4 @@ Browsers locally cache some contents like images and other files on your first v
 
 If this also does not work, try visiting to http://yoursite.com/favion.ico (change the extension if you have used something else). 
 
-[Source](https://superuser.com/questions/375321/how-to-refresh-bookmark-favicons-in-chrome).
+[Source](https://superuser.com/questions/375321/how-to-refresh-bookmark-favicons-in-chrome)
