@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Browser loading old favicon from cache?
 
