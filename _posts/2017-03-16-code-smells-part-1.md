@@ -1,10 +1,6 @@
 ---
 published: true
 ---
----
-published: true
----
-
 ## Code Smells
 
 1.Bloaters
