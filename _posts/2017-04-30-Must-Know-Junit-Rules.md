@@ -27,7 +27,34 @@ public class ExpectedExceptionExampleTest {
  }
 {% endhighlight %}
 
-2.[External Resource](http://junit.org/junit4/javadoc/4.12/org/junit/rules/ExternalResource.html)
+2.[External Resource](http://junit.org/junit4/javadoc/4.12/org/junit/rules/ExternalResource.html):
+This rule can be used when you are accessing some external resource like a database in your tests. This is an abstract rule, which provide two methods before and after which would contain but the setup and teardown logic respectively. This the rule I found most useful, this rule can be for various resources like contacting external database, setting up and teardown in-memory database etc. You can define a rule for the database you are using in your project and reuse it in all the test classes, pretty cool!. Below is a simple code snippet showing the usage.
+
+{% highlight java %}
+public static class ExternalResourceExampleTest {
+  DataBase database= new DataBase();
+
+  @Rule
+  public ExternalResource resource= new ExternalResource() {
+      @Override
+      protected void before() throws Throwable {
+          database.openConnection();
+          database.load(testData)
+         };
+
+      @Override
+      protected void after() {
+          database.delete(testData);
+          database.closeConnection();
+         };
+     };
+
+  @Test
+  public void testFoo() {
+      database.query(expression);
+     }
+ }
+{% endhighlight%}
 
 3.[Temporary Folder](http://junit.org/junit4/javadoc/4.12/org/junit/rules/TemporaryFolder.html)
 4.[Timout](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Timeout.html)
