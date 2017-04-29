@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Browser loading old favicon from cache?
+### Browser loading old favicon from cache?
 
 Has it happened to you that you creating a website and you tried updating the favicon to a more tendy one, but it's not showing up in your browser. Well it happened to me, so I thought of sharing the solution.
 
