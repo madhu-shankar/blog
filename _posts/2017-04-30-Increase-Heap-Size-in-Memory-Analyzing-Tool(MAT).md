@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ### Increasing Heap size in Memory Analyzing Tool(MAT)
 
