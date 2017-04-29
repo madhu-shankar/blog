@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Code Smells
+### Code Smells
 
 1.Bloaters
    1. Long Class
