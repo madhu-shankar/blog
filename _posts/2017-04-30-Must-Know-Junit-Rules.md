@@ -112,4 +112,4 @@ public static class VerifierTest {
 {% endhighlight %}
 
 
-[Ref](http://junit.org/junit4/javadoc/4.12/org/junit/rules/MethodRule.html)
+[Reference](http://junit.org/junit4/javadoc/4.12/org/junit/rules/MethodRule.html)
