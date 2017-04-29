@@ -2,6 +2,7 @@
 published: true
 ---
 ### Must know Junit Rules
+{:toc}
 
 In this blog post I will be writing about some Junit Rules that are very useful while writing test cases. This is not a introduction to Junit Rules. I will just be writing about some of the rules that Junit provides out of the box and how they could be extended to your use case.
 
@@ -58,7 +59,7 @@ public static class ExternalResourceExampleTest {
 
 3.[Temporary Folder](http://junit.org/junit4/javadoc/4.12/org/junit/rules/TemporaryFolder.html):
 You can use this rule if you need a temporary folder in tests to create and delete files. Below is a code snippet showing the usage.
-{% highlight %}
+{% highlight java %}
 public static class TemporaryFolderTest {
   @Rule
   public TemporaryFolder tempFolder= new TemporaryFolder();
@@ -72,7 +73,8 @@ public static class TemporaryFolderTest {
  }
 {% endhighlight %}
 
-4.[Timout](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Timeout.html)
+4.[Timout](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Timeout.html):
+
 5.[Verifier](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Verifier.html)
 
 
