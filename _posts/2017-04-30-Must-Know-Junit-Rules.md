@@ -2,7 +2,6 @@
 published: true
 ---
 ### Must know Junit Rules
-{:toc}
 
 In this blog post I will be writing about some Junit Rules that are very useful while writing test cases. This is not a introduction to Junit Rules. I will just be writing about some of the rules that Junit provides out of the box and how they could be extended to your use case.
 
