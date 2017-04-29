@@ -11,4 +11,4 @@ Recently I have been reading about Refactoting fundamentals. It feels good to kn
 
 3.[Yatzy Game Code Kata](https://github.com/emilybache/Yatzy-Refactoring-Kata)
 
-Among these code katas, GildedRose is one I have most heard of. These Katas have small code base and are really thought provoking. I will be solving each of these and I will try share all the thigs I learn while solving these.
+Among these code katas, GildedRose is one I have most heard of. These Katas have small code base and are really thought provoking. I will be solving each of these and I will try share all the thigs I learn while solving these. Do let me know in the comments if you know of any other great code kata..
