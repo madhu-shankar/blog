@@ -54,7 +54,7 @@ public static class ExternalResourceExampleTest {
       database.query(expression);
      }
  }
-{% endhighlight%}
+{% endhighlight %}
 
 3.[Temporary Folder](http://junit.org/junit4/javadoc/4.12/org/junit/rules/TemporaryFolder.html)
 4.[Timout](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Timeout.html)
