@@ -1,4 +1,7 @@
-## Increasing Heap size in Memory Analyzing Tool(MAT)
+---
+published: false
+---
+### Increasing Heap size in Memory Analyzing Tool(MAT)
 
 MAT is a great tool for analysing JVM heap dump. Usually while analysing heap dump, we get "Internal Error", this is beacuse MAT was not having enough memory to load the complete heap dump. MAT went OutOfMemory while loading a heap dump which was generated during out of memory :P.
 
