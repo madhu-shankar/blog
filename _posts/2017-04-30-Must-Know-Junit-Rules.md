@@ -93,6 +93,23 @@ public static class GlobalTimeoutTest {
 {% endhighlight %}
 
 5.[Verifier](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Verifier.html)
+{% highlight %}
+public static class VerifierTest {
+   private SomeClass underTest = new SomeClass();
+   
+   @Rule
+   public Verifier verifier = new Verifier() {
+       @Override public void verify() {
+          assertFalse(underTest.hasFailures());
+       }
+   }
+
+   @Test
+   public void testThatMightCaseFailures() {
+       // ...
+   }
+}
+{% endhighlight %}
 
 
 [Ref](http://junit.org/junit4/javadoc/4.12/org/junit/rules/MethodRule.html)
