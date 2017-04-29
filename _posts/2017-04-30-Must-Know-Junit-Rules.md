@@ -73,6 +73,24 @@ public static class TemporaryFolderTest {
 {% endhighlight %}
 
 4.[Timout](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Timeout.html):
+As the name says, you can add timeouts to your tests. The tests will fail if they do not complete in the set timeout. This rule is useful when you are invoking some remote services and having a timeout on such tests make sense.
+{% highlight java %}
+public static class GlobalTimeoutTest {
+
+  @Rule
+  public Timeout globalTimeout= new Timeout(20, TimeUnit.Seconds);
+
+  @Test
+  public void invokeHighLatencyAPI() throws InterruptedException {
+      restClient.get();
+  }
+
+  @Test
+  public void infiniteLoop() {
+      while (true) {}
+  }
+ }
+{% endhighlight %}
 
 5.[Verifier](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Verifier.html)
 
