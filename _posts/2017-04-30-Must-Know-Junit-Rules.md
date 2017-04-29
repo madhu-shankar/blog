@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ### Must know Junit Rules
 {:toc}
@@ -35,4 +35,3 @@ public class ExpectedExceptionExampleTest {
 
 
 [Ref](http://junit.org/junit4/javadoc/4.12/org/junit/rules/MethodRule.html)
-
