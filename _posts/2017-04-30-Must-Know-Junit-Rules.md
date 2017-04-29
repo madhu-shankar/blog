@@ -8,7 +8,7 @@ In this blog post I will be writing about some Junit Rules that are very useful 
 1.[Expected Exception](http://junit.org/junit4/javadoc/4.12/org/junit/rules/ExpectedException.html)
 As the name suggests, this is for verifying the exception thrown when you invoke a method. This provides good helper methods by which you can verify the cause of the exception, the message in the exception and much more. This greatky reduces the amount of boiler plate that we write for verifying the exceptions. Below is a simple code snippet showing the usage of this rule,
 
-{% highlight %}
+{%  highlight java %}
 public class ExpectedExceptionExampleTest {
      @Rule
      public ExpectedException thrownException = ExpectedException.none();
