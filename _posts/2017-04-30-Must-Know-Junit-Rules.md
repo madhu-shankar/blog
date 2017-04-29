@@ -93,7 +93,7 @@ public static class GlobalTimeoutTest {
 {% endhighlight %}
 
 5.[Verifier](http://junit.org/junit4/javadoc/4.12/org/junit/rules/Verifier.html)
-{% highlight %}
+{% highlight java %}
 public static class VerifierTest {
    private SomeClass underTest = new SomeClass();
    
