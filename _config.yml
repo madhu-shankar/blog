@@ -11,7 +11,7 @@ title-font-size: '3em' # a provision to adjust the size of your title. If it is 
 
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Madhu Shankar
+  Blog
 baseurl: "http://blog.madhushankar.me" # the subpath of your site, e.g. /blog
 url: "http://blog.madhushankar.me" # the base hostname & protocol for your site
 
