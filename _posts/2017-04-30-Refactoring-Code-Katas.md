@@ -16,4 +16,5 @@ Recently I have been reading about Refactoting fundamentals. It feels good to kn
 Among these code katas, GildedRose is one I have most heard of. These Katas have small code base and are really thought provoking. All the katas have enough test cases written, so you can directly start working on Refactoring. I will be solving each of these and I will try share all the thigs I learn while solving these. Do let me know in the comments if you know of any other great code kata.
 
 Solutions:
+
 1.[Movie Rental Code Kata](https://github.com/madhu-shankar/RefactoringCodeKataSolutions)
