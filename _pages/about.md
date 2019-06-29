@@ -15,4 +15,4 @@ published: true
 }
 </style>
 
-<img class="img-circle" src="/images/punch.jpeg" width="30%"> I am Madhu Shankar. I am a software developer based out of Bangalore. I love building new things and learning new things. I share some of the knowledge that I gain in my blog posts.
+<img class="img-circle" src="{{site.baseurl}}/images/punch.jpeg" width="30%"> I am Madhu Shankar. I am a software developer based out of Bangalore. I love building new things and learning new things. I share some of the knowledge that I gain in my blog posts.
